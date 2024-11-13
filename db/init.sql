@@ -14,7 +14,7 @@ ON CONFLICT (nome) DO NOTHING;
 
 CREATE TABLE IF NOT EXISTS perguntas (
     id SERIAL PRIMARY KEY,
-    categoria_id INT REFERENCES categorias(id),
+    categoria VARCHAR(50) NOT NULL,
     enunciado TEXT NOT NULL,
     opcao_a TEXT NOT NULL,
     opcao_b TEXT NOT NULL,
