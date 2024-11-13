@@ -1,0 +1,23 @@
+- categoria: linux
+  enunciado: Qual comando exibe o diretório atual?
+  opcao_a: ls
+  opcao_b: pwd
+  opcao_c: cd
+  opcao_d: dir
+  resposta_correta: B
+
+- categoria: redes
+  enunciado: Qual é o protocolo usado para resolver endereços IP a partir de nomes de domínio?
+  opcao_a: HTTP
+  opcao_b: DNS
+  opcao_c: FTP
+  opcao_d: SSH
+  resposta_correta: B
+
+- categoria: devops
+  enunciado: Qual ferramenta é usada para gerenciar containers?
+  opcao_a: Docker
+  opcao_b: Jenkins
+  opcao_c: Kubernetes
+  opcao_d: Ansible
+  resposta_correta: A
