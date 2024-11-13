@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Config default
+PONTUACAO_POR_PERGUNTA=100
+MAX_PULOS=3
+
+# Config pgpass
+PGPASS_FILE=~/.pgpass
+echo "$DB_HOST:5432:$DB_NAME:$DB_USER:$DB_PASSWORD" > $PGPASS_FILE
+chmod 600 $PGPASS_FILE
