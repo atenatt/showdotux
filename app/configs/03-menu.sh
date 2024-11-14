@@ -2,12 +2,11 @@
 
 function menu_principal() {
     while true; do
-        dialog --menu "Menu Principal" 15 40 4 \
+        option=$(dialog --menu "Menu Principal" 15 40 4 \
             1 "Iniciar Jogo" \
             2 "Ranking" \
-            3 "Sair" 2>menu_option.txt
+            3 "Sair" 3>&1 1>&2 2>&3)
 
-        option=$(cat menu_option.txt)
         case $option in
             1) iniciar_jogo ;;
             2) exibir_ranking ;;
@@ -18,7 +17,7 @@ function menu_principal() {
 }
 
 function sair() {
-    dialog --msgbox "Obrigado por jogar, $nome!" 6 40
+    dialog --msgbox "Obrigado por jogar, $USER_NAME!" 6 40
     clear
     exit 0
 }
