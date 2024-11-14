@@ -1,23 +1,242 @@
+# Categoria Linux
 - categoria: linux
-  enunciado: Qual comando exibe o diretório atual?
+  enunciado: Qual comando exibe o diretorio atual
   opcao_a: ls
   opcao_b: pwd
   opcao_c: cd
   opcao_d: dir
   resposta_correta: B
 
+- categoria: linux
+  enunciado: Qual comando e usado para listar arquivos em um diretorio
+  opcao_a: ls
+  opcao_b: cat
+  opcao_c: mv
+  opcao_d: rm
+  resposta_correta: A
+
+- categoria: linux
+  enunciado: Qual comando e utilizado para copiar arquivos no Linux
+  opcao_a: mv
+  opcao_b: cp
+  opcao_c: copy
+  opcao_d: scp
+  resposta_correta: B
+
+- categoria: linux
+  enunciado: Qual diretorio representa o root no sistema Linux
+  opcao_a: /root
+  opcao_b: /
+  opcao_c: /home
+  opcao_d: /etc
+  resposta_correta: B
+
+- categoria: linux
+  enunciado: Qual comando mostra os processos em execucao no sistema
+  opcao_a: ps
+  opcao_b: top
+  opcao_c: htop
+  opcao_d: Todas as acimas
+  resposta_correta: D
+
+- categoria: linux
+  enunciado: Qual comando e usado para alterar permissoes de arquivo no Linux
+  opcao_a: chmod
+  opcao_b: chown
+  opcao_c: chgrp
+  opcao_d: chmodown
+  resposta_correta: A
+
+- categoria: linux
+  enunciado: Qual comando e utilizado para buscar texto dentro de arquivos
+  opcao_a: grep
+  opcao_b: find
+  opcao_c: search
+  opcao_d: locate
+  resposta_correta: A
+
+- categoria: linux
+  enunciado: Qual comando exibe a quantidade de espaco em disco disponivel
+  opcao_a: df
+  opcao_b: du
+  opcao_c: lsblk
+  opcao_d: mount
+  resposta_correta: A
+
+- categoria: linux
+  enunciado: Qual arquivo contem as informacoes de inicializacao do sistema
+  opcao_a: /etc/init.d
+  opcao_b: /boot/grub/grub.cfg
+  opcao_c: /etc/fstab
+  opcao_d: /var/log/syslog
+  resposta_correta: B
+
+- categoria: linux
+  enunciado: Qual comando e usado para encontrar e substituir texto em arquivos
+  opcao_a: sed
+  opcao_b: awk
+  opcao_c: grep
+  opcao_d: replace
+  resposta_correta: A
+
+# Categoria Redes
 - categoria: redes
-  enunciado: Qual é o protocolo usado para resolver endereços IP a partir de nomes de domínio?
+  enunciado: Qual e o protocolo usado para resolver enderecos IP a partir de nomes de dominio
   opcao_a: HTTP
   opcao_b: DNS
   opcao_c: FTP
   opcao_d: SSH
   resposta_correta: B
 
-- categoria: devops
-  enunciado: Qual ferramenta é usada para gerenciar containers?
-  opcao_a: Docker
-  opcao_b: Jenkins
-  opcao_c: Kubernetes
-  opcao_d: Ansible
+- categoria: redes
+  enunciado: Qual porta e padrao para o protocolo HTTPS
+  opcao_a: 21
+  opcao_b: 22
+  opcao_c: 443
+  opcao_d: 80
+  resposta_correta: C
+
+- categoria: redes
+  enunciado: Qual protocolo e usado para obter um endereco IP automaticamente
+  opcao_a: DNS
+  opcao_b: DHCP
+  opcao_c: ARP
+  opcao_d: FTP
+  resposta_correta: B
+
+- categoria: redes
+  enunciado: O que significa NAT
+  opcao_a: Network Address Translation
+  opcao_b: Network Access Terminal
+  opcao_c: Network Allocation Table
+  opcao_d: Nenhuma das acimas
   resposta_correta: A
+
+- categoria: redes
+  enunciado: Qual protocolo e usado para monitorar redes
+  opcao_a: SNMP
+  opcao_b: ICMP
+  opcao_c: FTP
+  opcao_d: SSH
+  resposta_correta: A
+
+- categoria: redes
+  enunciado: Qual camada do modelo OSI lida com roteamento
+  opcao_a: Fisica
+  opcao_b: Transporte
+  opcao_c: Rede
+  opcao_d: Aplicacao
+  resposta_correta: C
+
+- categoria: redes
+  enunciado: Qual protocolo e usado para descobrir enderecos MAC
+  opcao_a: ARP
+  opcao_b: ICMP
+  opcao_c: DHCP
+  opcao_d: DNS
+  resposta_correta: A
+
+- categoria: redes
+  enunciado: Qual comando exibe a tabela de roteamento no Linux
+  opcao_a: ip route
+  opcao_b: netstat -r
+  opcao_c: route
+  opcao_d: Todas as acimas
+  resposta_correta: D
+
+- categoria: redes
+  enunciado: Qual protocolo e usado para controle de erros em redes
+  opcao_a: ICMP
+  opcao_b: SNMP
+  opcao_c: FTP
+  opcao_d: TCP
+  resposta_correta: A
+
+- categoria: redes
+  enunciado: Qual e o endereco IP de loopback padrao
+  opcao_a: 127.0.0.1
+  opcao_b: 192.168.0.1
+  opcao_c: 10.0.0.1
+  opcao_d: 0.0.0.0
+  resposta_correta: A
+
+# Categoria DevOps
+- categoria: devops
+  enunciado: Qual ferramenta e usada para automacao de configuracao
+  opcao_a: Ansible
+  opcao_b: Docker
+  opcao_c: Jenkins
+  opcao_d: Terraform
+  resposta_correta: A
+
+- categoria: devops
+  enunciado: Qual ferramenta e usada para integracao continua e entrega continua CI/CD
+  opcao_a: Git
+  opcao_b: Kubernetes
+  opcao_c: Jenkins
+  opcao_d: Prometheus
+  resposta_correta: C
+
+- categoria: devops
+  enunciado: Qual comando e usado para criar um novo conteiner Docker
+  opcao_a: docker create
+  opcao_b: docker build
+  opcao_c: docker run
+  opcao_d: docker init
+  resposta_correta: C
+
+- categoria: devops
+  enunciado: Qual ferramenta e usada para gerenciar a infraestrutura como codigo
+  opcao_a: Ansible
+  opcao_b: Kubernetes
+  opcao_c: Terraform
+  opcao_d: Jenkins
+  resposta_correta: C
+
+- categoria: devops
+  enunciado: Qual ferramenta e usada para monitoramento em tempo real de aplicacoes
+  opcao_a: Grafana
+  opcao_b: Prometheus
+  opcao_c: Nagios
+  opcao_d: Todas as anteriores
+  resposta_correta: D
+
+- categoria: devops
+  enunciado: Qual ferramenta e usada para orquestracao de conteineres
+  opcao_a: Docker
+  opcao_b: Kubernetes
+  opcao_c: Jenkins
+  opcao_d: Ansible
+  resposta_correta: B
+
+- categoria: devops
+  enunciado: Qual e o sistema de controle de versao mais utilizado
+  opcao_a: Git
+  opcao_b: SVN
+  opcao_c: Mercurial
+  opcao_d: CVS
+  resposta_correta: A
+
+- categoria: devops
+  enunciado: Qual comando Docker e usado para parar um conteiner em execucao
+  opcao_a: docker stop
+  opcao_b: docker kill
+  opcao_c: docker pause
+  opcao_d: docker remove
+  resposta_correta: A
+
+- categoria: devops
+  enunciado: Qual ferramenta e usada para criar dashboards de visualizacao
+  opcao_a: Prometheus
+  opcao_b: Grafana
+  opcao_c: Jenkins
+  opcao_d: Kubernetes
+  resposta_correta: B
+
+- categoria: devops
+  enunciado: Qual pratica DevOps reduz o tempo entre o commit e o deploy em producao
+  opcao_a: Continuous Integration
+  opcao_b: Continuous Deployment
+  opcao_c: Continuous Delivery
+  opcao_d: Todas as anteriores
+  resposta_correta: D
